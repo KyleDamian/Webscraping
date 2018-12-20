@@ -70,7 +70,7 @@ def scrape():
         {"title": "Syrtis Major Hemisphere", "img_url": Syrtis},
     ]
 
-    mars_data["hemisphere images"] = hemisphere_image_urls
+    mars_data["hemisphere_images"] = hemisphere_image_urls
 
     # Return the dictionary
     return mars_data
